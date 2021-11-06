@@ -1,4 +1,4 @@
-package lesson08;
+package lesson09;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -8,9 +8,9 @@ import java.util.Scanner;
 /**
  * Created by ngochongdo on 11/05/2021
  */
-public class Lesson08 {
+public class Lesson09 {
     public static void main(String[] args) throws IOException {
-        new Lesson08().showMainMenu();
+        new Lesson09().showMainMenu();
 
     }
 
@@ -36,7 +36,7 @@ public class Lesson08 {
     }
 
     void showMainMenu() throws IOException {
-        System.out.println("------- K2 Lesson 08 Exercises Menu -------");
+        System.out.println("------- K2 Lesson 09 Exercises Menu -------");
         System.out.println("--- Exercise 01: Animal Racing with Interface. Please enter 1. --- ");
         System.out.println("--- Exercise 02: Book with file. Please enter 2. --- ");
         System.out.println("--- To Exit: Please enter 3. --- ");
@@ -58,9 +58,9 @@ public class Lesson08 {
     }
 
     void showChildMenu(int currentExerciseNumber) throws IOException {
-        System.out.println("--- Do you want to continue Lesson 08 ? ---");
+        System.out.println("--- Do you want to continue Lesson 09 ? ---");
         System.out.println("--- Enter 1 to continue current exercise. ");
-        System.out.println("--- Enter 2 to go back lesson 08 Main Menu. ");
+        System.out.println("--- Enter 2 to go back lesson 09 Main Menu. ");
         System.out.println("--- Enter 3 to exit. ");
 
         // Enter number choose function in child menu
@@ -230,7 +230,7 @@ public class Lesson08 {
                     String title = bookData[1];
                     String author = bookData[2];
 
-                    books.add(new lesson08.Book(ISBN, title, author));
+                    books.add(new lesson09.Book(ISBN, title, author));
                 }
 
             } while (dataLine != null);
@@ -272,7 +272,7 @@ public class Lesson08 {
     void showExercise02ChildMenu() throws IOException {
         System.out.println("--- Do you want to continue Exercise 02 ? ---");
         System.out.println("--- Enter 1 to continue current exercise 02 ");
-        System.out.println("--- Enter 2 to go back Lesson08 Main Menu. ");
+        System.out.println("--- Enter 2 to go back Lesson09 Main Menu. ");
         System.out.println("--- Enter 3 to exit. ");
 
         // Enter number to choose exercise to run
