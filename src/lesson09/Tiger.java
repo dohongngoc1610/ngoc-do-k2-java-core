@@ -1,6 +1,4 @@
-package lesson08;
-
-import lesson07.Animal;
+package lesson09;
 
 import java.security.SecureRandom;
 
